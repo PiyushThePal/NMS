@@ -38,7 +38,7 @@ git clone https://github.com/radareorg/radare2 ; cd radare2 ; sys/install.sh
 ---------------------------
 echo "Installing Web tools"
 
-go get -u github.com/ffuf/ffuf
+go install github.com/ffuf/ffuf/v2@latest
 git clone https://github.com/danielmiessler/SecLists.git
 
 ---------------
