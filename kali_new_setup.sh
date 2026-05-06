@@ -12,10 +12,10 @@ export GOPATH=$HOME/go
 export PATH=\$GOPATH/bin:\$GOROOT/bin:\$PATH" >> ~/.zshrc
 source ~/.zshrc
 
-go get -u github.com/ffuf/ffuf
-go get -u github.com/visma-prodsec/confused
-go get -u github.com/haccer/subjack
-go get -u github.com/tomnomnom/waybackurls
+go install github.com/ffuf/ffuf/v2@latest
+go install github.com/visma-prodsec/confused@latest
+go install github.com/haccer/subjack@latest
+go install github.com/tomnomnom/waybackurls@latest
 
 mkdir ~/tools
 cd ~/tools
